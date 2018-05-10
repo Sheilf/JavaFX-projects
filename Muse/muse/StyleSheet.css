@@ -1,0 +1,39 @@
+
+.root{
+    -fx-font-size: 16px;
+    -fx-font-family: "Calibri";
+    -fx-text-base-color: white;
+
+
+
+}
+
+.button{
+
+    -fx-background-color: rgba(27,27,27,0.3);
+    -fx-border-radius: 5;
+    -fx-padding: 10;
+    -fx-text-base-color: white;
+ 
+}
+
+.text{
+    -fx-text-base-color: darkgrey;
+}
+
+.label{
+
+    -fx-text-base-color: darkgrey;            
+}
+
+.button:hover{
+    -fx-background-color: rgba(0,0,0,1);
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+    -fx-scale-z: 1.05;
+     -fx-effect: dropshadow(one-pass-box, white, 1, 1.0, 1, 1);
+    
+}
+
